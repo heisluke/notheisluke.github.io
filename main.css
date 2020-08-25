@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 1300px;
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+}
+
+.hero-image {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-text h1{
+    margin: 0;
+    font-family: Muli;
+    font-size: 3.8rem;
+    font-weight: 800;
+}
+
+footer {
+    background-color: #8A2BE2;
+    font-family: Muli;
+    color: white;
+    background-image: url(images/backdrop.png);
+    background-repeat: repeat-x;
+}
+
+footer .wrapper{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 6rem 0 4rem 0;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    flex: 40%;
+}
+
+.footer-info h3 {
+    margin: 0;
+    font-size: 23px;
+}
+
+.footer-info p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+
+.bottom-nav {
+    display: flex;
+    flex: 60%;
+    justify-content: center;
+}
+
+.bottom-nav .column {
+    padding-left: 4rem;
+}
+
+.bottom-nav h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.025rem;
+}
+
+.bottom-nav .column ul{
+    padding-left: 0;
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.bottom-footer {
+    font-family: Muli;
+    background-color: #6f18c0;
+    padding: 3px;
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
